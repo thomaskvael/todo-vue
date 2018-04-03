@@ -10,7 +10,7 @@ import VueTimeago from 'vue-timeago'
 
 import TodoGrid from './components/TodoGrid.vue'
 
-import VuePerfectScrollbar from 'vue-perfect-scrollbar'
+// import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 Vue.use(Vuetify, {
   theme: {
@@ -32,7 +32,7 @@ Vue.config.productionTip = false
 
 Vue.component('todo-grid', TodoGrid);
 
-Vue.component('scrollbar', VuePerfectScrollbar);
+// Vue.component('scrollbar', VuePerfectScrollbar);
 
 /* eslint-disable no-new */
 new Vue({
